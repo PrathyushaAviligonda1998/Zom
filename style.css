@@ -1,0 +1,37 @@
+html,
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        #header-img {
+            position: relative;
+            width: 100vw;
+            height: 600px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.masterclass.com%2Farticles%2Fall-about-indian-cuisine-the-most-popular-dishes-and-where-to-start&psig=AOvVaw0yGxTWutsaXIce9jv5exGm&ust=1618735232620000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIi92ujwhPACFQAAAAAdAAAAABAJ');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            width: 100vw;
+            height: 60px;
+        }
+
+        .nav-menu {
+            width: 100vw;
+            height: 60px;
+        }
+
+        .zomato {
+            display: block;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+            font-size: 50px;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
